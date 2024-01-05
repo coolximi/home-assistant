@@ -1,0 +1,5 @@
+type: map
+entities:
+  - entity: device_tracker.volvo_[VIN]_location
+dark_mode: true
+default_zoom: 13

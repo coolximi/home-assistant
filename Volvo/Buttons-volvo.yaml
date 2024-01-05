@@ -1,0 +1,24 @@
+quare: false
+columns: 3
+type: grid
+cards:
+  - show_name: true
+    show_icon: true
+    type: button
+    tap_action:
+      action: toggle
+    entity: switch.volvo_[VIN]_climate_status
+    icon: mdi:air-conditioner
+  - show_name: true
+    show_icon: true
+    type: button
+    tap_action:
+      action: toggle
+    entity: lock.volvo_[VIN]_lock_status
+    icon: phu:car-fob
+  - show_name: true
+    show_icon: true
+    type: button
+    tap_action:
+      action: toggle
+    entity: button.volvo_[VIN]_update_data
