@@ -1,0 +1,13 @@
+show_name: true
+show_icon: true
+show_state: true
+type: glance
+entities:
+  - entity: sensor.volvo_[VIN]_odometer
+  - entity: sensor.volvo_[VIN]_km_to_service
+  - entity: sensor.volvo_[VIN]_time_to_service
+  - entity: sensor.volvo_[VIN]_hours_to_service
+  - entity: sensor.volvo_[VIN]_washer_fluid_warning
+  - entity: sensor.volvo_[VIN]_service_warning_status
+columns: 2
+title: Car Service
