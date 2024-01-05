@@ -1,0 +1,157 @@
+type: vertical-stack
+cards:
+  - type: picture-elements
+    elements:
+      - type: state-label
+        entity: sensor.volvo_[VIN]_fuel_level
+        style:
+          top: 93%
+          left: 20%
+          font-size: 18px
+          color: black
+      - type: state-icon
+        entity: sensor.volvo_[VIN]_fuel_level
+        style:
+          top: 85%
+          left: 20%
+      - type: state-label
+        entity: sensor.volvo_[VIN]_distance_to_empty_tank
+        style:
+          top: 93%
+          left: 40%
+          font-size: 18px
+          color: black
+      - type: state-icon
+        entity: sensor.volvo_[VIN]_distance_to_empty_tank
+        style:
+          top: 85%
+          left: 40%
+      - type: state-label
+        entity: sensor.volvo_[VIN]_average_fuel_consumption
+        style:
+          top: 93%
+          left: 60%
+          font-size: 18px
+          color: black
+      - type: state-icon
+        entity: sensor.volvo_[VIN]_average_fuel_consumption
+        style:
+          top: 85%
+          left: 60%
+      - type: state-label
+        entity: sensor.volvo_[VIN]_odometer
+        style:
+          top: 93%
+          left: 80%
+          font-size: 18px
+          color: black
+      - type: state-icon
+        entity: sensor.volvo_[VIN]_odometer
+        style:
+          top: 85%
+          left: 80%
+    image: [PATH TO IMAGE]
+  - type: picture-elements
+    elements:
+      - type: state-label
+        entity: sensor.volvo_[VIN]_battery_charge_level
+        style:
+          top: 93%
+          left: 20%
+          font-size: 18px
+          color: black
+      - type: state-icon
+        entity: sensor.volvo_[VIN]_battery_charge_level
+        style:
+          top: 85%
+          left: 20%
+      - type: state-label
+        entity: sensor.volvo_[VIN]_electric_range
+        style:
+          top: 93%
+          left: 40%
+          font-size: 18px
+          color: black
+      - type: state-icon
+        entity: sensor.volvo_[VIN]_electric_range
+        style:
+          top: 85%
+          left: 40%
+      - type: state-label
+        entity: sensor.volvo_[VIN]_charging_system_status
+        style:
+          top: 93%
+          left: 60%
+          font-size: 18px
+          color: black
+      - type: state-icon
+        entity: sensor.volvo_[VIN]_charging_system_status
+        style:
+          top: 85%
+          left: 60%
+      - type: state-label
+        entity: sensor.volvo_[VIN]_estimated_charging_time
+        style:
+          top: 93%
+          left: 80%
+          font-size: 18px
+          color: black
+      - type: state-icon
+        entity: sensor.volvo_[VIN]_estimated_charging_time
+        style:
+          top: 85%
+          left: 80%
+    image: [PATH TO IMAGE]
+  - type: picture-elements
+    elements:
+      - type: state-icon
+        entity: binary_sensor.volvo_[VIN]_door_front_left
+        style:
+          top: 80%
+          left: 45%
+      - type: state-icon
+        entity: binary_sensor.volvo_[VIN]_door_rear_left
+        style:
+          top: 80%
+          left: 65%
+      - type: state-icon
+        entity: binary_sensor.volvo_[VIN]_door_front_right
+        style:
+          top: 20%
+          left: 45%
+      - type: state-icon
+        entity: binary_sensor.volvo_[VIN]_door_rear_right
+        style:
+          top: 20%
+          left: 65%
+      - type: state-icon
+        entity: sensor.volvo_[VIN]_tyre_front_left
+        style:
+          top: 80%
+          left: 25%
+      - type: state-icon
+        entity: sensor.volvo_[VIN]_tyre_front_right
+        style:
+          top: 20%
+          left: 25%
+      - type: state-icon
+        entity: sensor.volvo_[VIN]_tyre_rear_left
+        style:
+          top: 80%
+          left: 80%
+      - type: state-icon
+        entity: sensor.volvo_[VIN]_tyre_rear_right
+        style:
+          top: 20%
+          left: 80%
+      - type: state-icon
+        entity: binary_sensor.volvo_[VIN]_tailgate
+        style:
+          top: 50%
+          left: 92%
+      - type: state-icon
+        entity: binary_sensor.volvo_[VIN]_engine_hood
+        style:
+          top: 48%
+          left: 18%
+    image: [PATH TO IMAGE]
